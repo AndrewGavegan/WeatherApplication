@@ -1,0 +1,46 @@
+
+*{
+    font-family: Arial;
+}
+
+
+
+
+.wrapper{
+    position: absolute;
+    padding: 10px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+#searchbar{
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    outline: none;
+    font-size: 28px;
+}
+
+.info{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+#conditions{
+    padding: 10px;
+    margin: 5px;
+    font-size: 32px;
+}
+
+#temp{
+    padding: 10px;
+    margin: 5px;
+    font-size: 32px;
+}
+
